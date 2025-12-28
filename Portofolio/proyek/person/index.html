@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Personal | Minimalis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigasi -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Porto<span>folio</span></a>
+                
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Halo, Saya <span style="color: var(--secondary)">Ahmad Rizki</span></h1>
+            <p>Saya seorang Web Developer & UI/UX Designer dengan passion menciptakan pengalaman digital yang menarik dan fungsional.</p>
+            <a href="#portfolio" class="btn">Lihat Portofolio</a>
+        </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://i.pinimg.com/736x/4d/0f/5b/4d0f5bdb408231ee027553b7be7ce3f6.jpg" alt="Profil Saya">
+                </div>
+                <div class="about-text">
+                    <h3>Web Developer & UI/UX Designer</h3>
+                    <p>Saya memiliki lebih dari 5 tahun pengalaman dalam mengembangkan website dan aplikasi web yang responsif dan user-friendly. Saya berfokus pada kode yang bersih, desain yang minimalis, dan pengalaman pengguna yang optimal.</p>
+                    <p>Saya selalu bersemangat untuk mempelajari teknologi baru dan tantangan kreatif. Saya percaya bahwa desain yang baik tidak hanya tentang estetika, tetapi juga tentang fungsionalitas dan kemudahan penggunaan.</p>
+                    
+                    <div class="skills">
+                        <span class="skill">HTML/CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">UI/UX Design</span>
+                        <span class="skill">Figma</span>
+                        <span class="skill">Responsive Design</span>
+                    </div>
+                    
+                    <a href="#contact" class="btn" style="margin-top: 30px;">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Portofolio</h2>
+            
+            <div class="portfolio-filter">
+                <div class="filter-btn active" data-filter="all">Semua</div>
+                <div class="filter-btn" data-filter="web">Web Development</div>
+                <div class="filter-btn" data-filter="design">UI/UX Design</div>
+                <div class="filter-btn" data-filter="mobile">Mobile App</div>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Proyek E-commerce">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Website E-commerce</h3>
+                        <p>Pengembangan website e-commerce dengan sistem pembayaran terintegrasi dan desain responsif.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80" alt="UI/UX Dashboard">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>UI/UX Dashboard Admin</h3>
+                        <p>Desain dashboard admin dengan fokus pada user experience dan sistem yang intuitif.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Aplikasi Mobile">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Aplikasi Mobile Finance</h3>
+                        <p>Pengembangan aplikasi mobile untuk manajemen keuangan pribadi dengan fitur lengkap.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Website Perusahaan">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Website Perusahaan</h3>
+                        <p>Website perusahaan dengan desain modern dan fitur blog terintegrasi.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Redesign Aplikasi">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Redesign Aplikasi Travel</h3>
+                        <p>Redesign UI/UX aplikasi travel untuk meningkatkan user engagement dan konversi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Lokasi</h3>
+                            <p>Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>ahmad.rizki@example.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telepon</h3>
+                            <p>+62 812 3456 7890</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subjek" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            
+            <p class="copyright">© 2023 Ahmad Rizki. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle menu untuk mobile
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Tutup menu mobile saat link diklik
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+        
+        // Filter portofolio
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                // Hapus class active dari semua button
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Tambah class active pada button yang diklik
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                const items = document.querySelectorAll('.portfolio-item');
+                
+                items.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Form kontak
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Terima kasih! Pesan Anda telah berhasil dikirim. Saya akan membalas pesan Anda segera.');
+            this.reset();
+        });
+        
+        // Efek scroll untuk header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
